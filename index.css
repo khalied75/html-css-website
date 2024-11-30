@@ -1,0 +1,398 @@
+*{
+   box-sizing: border-box;
+   font-family: "Quicksand", serif;
+   font-optical-sizing: auto;
+   font-weight: <weight>;
+   font-style: normal;
+}
+
+*
+{
+   padding: 0%;
+   margin: 0;
+}
+/*header start*/
+header
+{
+   position: relative;
+   background-repeat: no-repeat;
+   background: url('img/home_bg.jpeg') center/cover;
+   height: 100vh;
+}
+header #nave_bar {
+   align-items: center;
+   display:flex;
+   justify-content: space-between;
+ }
+ header #nave_bar img{
+   width: 80px;
+   margin-left: 100px;
+ }
+a{
+text-decoration: none;
+ }
+ #nave_bar ul {
+   margin-right:100px ;
+   display: flex;    
+ }
+ #nave_bar ul li a{
+   padding: 15px 20px;
+   color: aliceblue;
+   font-weight: 600;
+}
+ /*utitly calses*/
+ .food_lover_title
+{
+   color:yellow;
+}
+.btn{
+   display: inline-block;
+padding: 20px 50px;
+border-radius: 20px ;
+}
+.btn_primary{
+   font-size: 17px;
+   background-color: #ffffff00;
+   border: solid white 1px;
+   color: #fff;
+}
+.btn_primary:hover,
+.btn_second:hover
+{
+   background: yellow;
+   color: black;
+}
+  .btn_second
+  {
+   margin-top: 2rem;
+   color: #fff;
+   background-color: #292930;
+   border: solid white 1px;
+  }
+  
+/*end*/
+ #nave_bar ul li a:hover
+{
+border-bottom:solid 2px rgb(255, 166, 0) ;
+}
+header .content {
+   height: 75%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+header .content h1
+{
+   color: aliceblue;
+   font-weight: 800;
+   font-size: 40px;
+}
+header .content p
+{
+   color: aliceblue;
+margin: 20px 0 40px;
+}
+ header::before
+{ 
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color:rgba(0, 0, 0, 0.411);
+}
+header *{
+   z-index: 10;
+}
+/*header end*/
+/*main start*/
+.cotanier{
+   margin: auto;
+   max-width: 1100px;
+}
+.about{
+   height:80vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.about .title
+{
+   text-align: center;
+   margin-bottom:4rem ;
+}
+.about h2
+{
+   margin-bottom:40px;
+   font-size: 40px;
+   color: #292930;
+}
+
+.about .title p
+{
+   font-weight: 600;
+color: #d3b6b6;
+font-size: 14px;
+} 
+.about .about-contant 
+{
+   justify-content: space-between;
+   display: flex;
+}
+.about-contant img
+{
+   width: 450px;
+}
+.about .about-contant p{
+   margin-right: 7rem;
+   color: #d3b6b6;
+   margin-bottom: 25px;
+   font-weight: 500;
+   line-height:160%;
+}
+/*main end */
+/*secation price*/
+  .offers{
+   height: 80vh;
+   justify-content: center;
+   display: flex;
+   background: url("img/offer-background.jpg") center center/cover;
+  background-attachment:fixed ;
+  }
+  .offers .title{
+   text-align: center;
+   margin-bottom: 4rem;
+  }
+.offers .title h2{
+      margin-bottom: 40px;
+      font-size: 40px;
+      color: yellow;
+}
+.offers .title p{
+   color: #d3b6b6;
+}
+.offeers_items{
+  color: white;
+   display: flex;
+   max-width: 1100px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.offeers_items img{
+   width: 220px;
+   
+}
+.offeers_items p{
+   font-size: 14px;
+   margin: 2rem;
+   width: 220px;
+   color: white;
+}
+.offeers_items span{
+   font-weight: 600;
+   margin: 5px;
+   font-size: 18px;
+}
+/*sexation price */
+/*menu satart*/
+.menu{
+   background: whitesmoke;
+   padding: 5rem 0;
+}
+.menu .title{
+   text-align: center;
+      margin-bottom: 4rem;
+}
+.menu .title h2{
+   font-size: 40px;
+   margin-bottom:40px ;
+   color: #292930;
+}
+.menu .title p{
+   font-weight: 400;
+   color: #d3b6b6;
+   font-size: 18px;
+}
+.menu .menu_items {
+   display: flex;
+   justify-content: center;
+align-items: center;
+}
+.menu .menu_items .menu_item {
+display: flex;
+   justify-content: center;
+   margin: 40px;
+   align-items: center;
+}
+.menu .menu_items .menu_item img{
+   width: 80px;
+   border-radius: 180px;
+   margin-right: 1.5rem;
+}
+.menu .menu_items .menu_item h3{
+   font-size: 22px;
+   font-weight: 800;
+   color: #292930;
+   border-bottom:1px dashed rgba(148, 132, 132, 0.671) ;
+   padding-bottom:10px;
+}
+.menu .menu_items .menu_item span{
+   float: right;
+}
+.menu .menu_items .menu_item p{
+   margin-top: 10px;
+   font-weight: 400;
+   font-size: 18px;
+}
+.menu .btn{
+   max-width: 250px;
+   display: block;
+  margin: auto;
+  background: #dfaf49;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.menu .btn:hover
+{
+   background-color: #292930;
+
+}
+/*menu end */
+/*day time foods "start"*/
+.-daytime{
+background: url(img/daytime_bg.jpeg) center center/cover;
+background-attachment: fixed;
+text-align: center;
+}
+.daytime_items {
+   display: flex;
+justify-content:space-evenly;
+height: 40vh;
+align-items: center;
+color: #ffffff;
+}
+.daytime_items .daytime_item h3{
+   font-size: 1.75rem;
+   font-weight: 500;
+   margin-top:20px ;
+   margin-bottom: 20px;
+}
+.daytime_items .daytime_item p{
+   font-weight: 500;
+}
+/*day time foods "end"*/
+/*food gallery start*/
+.gallery_food
+{
+background: url("img/offer-background.jpg") center center/cover;
+background-attachment: fixed;
+padding:8rem 0 6rem;
+}
+.gallery_food .gallery_img {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.gallery_food .gallery_img img {
+   width: 280px;
+   height: 200px;
+   border-radius: 15px;
+   margin: 20px;
+   opacity: 0.8;
+   
+}
+.gallery_food .gallery_img img:hover{
+   color: whitesmoke;
+opacity: 100%;
+}
+.gallery_food .cotanier h2{
+text-align: center;
+font-size: 2rem;
+font-weight: 600;
+margin-bottom: 20px;
+color: white;
+}
+/*food gallery end */
+/*the end of the page "start"*/
+.contact{
+   padding: 5rem 0;
+   background-color: #f4f4f4;
+}
+.contact .cotanier{
+   max-width: 900px;
+}
+.contact_contanier{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.contact .contact_items_info{
+   width: 50%;
+}
+.contact .cotanier .contact_items_info div{
+   padding-bottom: 20px;
+   line-height: 1.75;
+}
+.contact .contact_items_info h3{
+   color: #292930;
+   font-size: 29px;
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+.contact .contact_items_info p{
+color: gray;
+}
+.contact_items_info i{
+   color: #dfaf49;
+   padding-right: 0.80rem;
+}
+.contact_items_info  a i{
+   color: #ffffff;
+   background-color: #292930;
+   border-radius: 15px;
+   padding: 10px;
+}
+.contact_items_info a i:hover{
+   background-color: #dfaf49;
+   transition: 1s;
+}
+form{
+ 
+   width: 50%;
+}
+form input,
+textarea
+ {
+   display:block;
+   margin-bottom: 20px;
+   padding: 15px 10px;
+   width: 100%;
+   border: 0;
+   background:#e3e2dd;
+}
+.contact .cotanier .btn_submit{
+   background: #dfaf49;
+   cursor: pointer;
+   height: 50px;
+   text-align: center;
+   border: none;
+   color: rgb(0, 0, 0);
+}
+.contact .cotanier .btn_submit:hover{
+   background-color: #292930;
+   color: white;
+}
+
+/*the end of the page "end"*/
+/*the end of the page "start*/
+.copy_right{
+      background-color: #292930;
+} 
+.copy_right p{
+   text-align: center;
+   color: white;
+}
+/*the end of the page "end*/
